@@ -1,4 +1,4 @@
-# Assesment on Latamcent
+# Assesment in LatamCent
 
 The job generator form (https://latamcent.com/form-description-generator/) works well, I have completed the three steps, and it correctly generates the job text based on the requested information.
 In turn, I have noticed that it allows the download of the generated text, in docx format.
@@ -25,6 +25,14 @@ Regarding its format for a website:
 - Allow tagging created positions with keywords or categories to facilitate internal management of multiple job descriptions (e.g. "Technical Position", "Sales Position", "Administrative Position").
 - Temporary saving: Enable the option to save the form at any time so that users (from companies) can return to it later.
 
+# Demonstration of the above suggestion:
+I have prepared a demo with HTML and CSS of how the three steps of the form could look.
+
+Notes:
+In the buttons of each step/stage, I have purposely commented the HTML needed to implement with Google reCaptcha, version 3.
+As it is a small demo, the files are .html instead of .php
+
+To view the demo, you can download the repository, and from any location on your computer, leave the folder, and then access the file step_1.html via browser, from which you can view step_2.html and step_3.html, using the buttons at the bottom.
 
 # AI Plugins in WordPress
 I've seen WordPress plugins that use the OpenAI API to automatically generate content, and some of them could be perfectly suited for a company-oriented job description generator.
