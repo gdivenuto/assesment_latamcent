@@ -32,7 +32,7 @@ Notes:
 In the buttons of each step/stage, I have purposely commented the HTML needed to implement with Google reCaptcha, version 3.
 As it is a small demo, the files are .html instead of .php
 
-To view the demo, you can download the repository, and from any location on your computer, leave the folder, and then access the file step_1.html via browser, from which you can view step_2.html and step_3.html, using the buttons at the bottom.
+To view the demonstration, you can download the repository, the .zip, and from any location on your computer, unzip the folder, and then access the file step_1.html via browser, from which you can view step_2.html and step_3.html, using the buttons at the bottom.
 
 # AI Plugins in WordPress
 I've seen WordPress plugins that use the OpenAI API to automatically generate content, and some of them could be perfectly suited for a company-oriented job description generator.
