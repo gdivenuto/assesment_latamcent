@@ -1,0 +1,463 @@
+/*******************************************************************************************************
+    CSS GENERAL
+*****************************************************************************************************/
+/* DEFINICION DE LAS FUENTES TIPOGRÁFICAS
+*****************************************/
+@font-face {
+    font-family: 'myriad_pro_bold';
+    src: url('myriad-pro/MyriadPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'myriad_pro_light_it';
+    src: url('myriad-pro/MyriadPro-LightIt.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'myriad_pro_regular';
+    src: url('myriad-pro/MyriadPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'myriad_pro_regular';
+  background-color: #fff;
+}
+a,
+.btn-link,
+.page-link {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+  box-shadow: none;
+}
+a:hover,
+.btn-link:active,
+.btn-link:visited,
+.btn-link:hover,
+.page-link:hover {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.page-link,
+.page-link:hover {
+  color: #f3a540;
+}
+.page-link {
+  color:  #a0a0a0;
+  background-color: transparent;
+  border: none;
+}
+.page-link:hover {
+  color:  #212529;
+}
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #ec1d25;
+  border-color: transparent;
+  border-radius: 7px;
+}
+
+h1,
+h6,
+.fuente_myriad_pro_bold {
+  font-family: 'myriad_pro_bold';
+}
+.fuente_myriad_pro_light_it {
+  font-family: 'myriad_pro_light_it';
+}
+.fuente_myriad_pro_regular {
+  font-family: 'myriad_pro_regular';
+}
+
+.fondo_rojo {
+  background-color: #ec1d25;
+}
+.fondo_verde {
+  background-color: #7fcb9a;
+}
+.fondo_verde_claro {
+  background-color: #dbdbdb;
+}
+.fondo_verde_muy_claro {
+  background-color: #33d6b7;
+}
+.fondo_gris_oscuro {
+  background-color: #434343;
+}
+.fondo_gris_claro {
+  background-color: #bebebe;
+}
+.fondo_gris_muy_claro {
+  background-color: #efefef;
+}
+.table-group-divider {
+  color: #ee1c25;
+}
+.fuente_rojo {
+  color: #ee1c25;
+}
+.fuente_azul {
+  color: #10525b;
+}
+.fuente_gris {
+  color: #7a7a7a;
+}
+.fuente_gris_claro {
+  color: #bebebe;
+}
+.fuente_gris_oscuro {
+  color: #434343;
+}
+.fuente_card {
+  color: #4d4b4c;
+}
+
+.sin_cursor {
+  cursor: not-allowed;
+}
+
+.height_150 {
+  height: 150px !important;
+}
+
+.size_06 {
+  font-size: .6rem;
+}
+.size_07 {
+  font-size: .7rem;
+}
+.size_08 {
+  font-size: .8rem;
+}
+.size_09 {
+  font-size: .9rem;
+}
+.size_10 {
+  font-size: 1rem;
+}
+.size_12 {
+  font-size: 1.2rem;
+}
+.size_14 {
+  font-size: 1.4rem;
+}
+.size_16 {
+  font-size: 1.6rem;
+}
+.size_18 {
+  font-size: 1.8rem;
+}
+
+#modal_general {
+  z-index: 2710;
+}
+
+.icon_custom:hover {
+  color: #ee1c25;
+}
+
+/* Menu superior
+--------------------------------------------------- */
+.navbar-toggler {
+  border: 0;
+}
+.navbar-toggler:focus {
+  outline: none; /* Elimina el borde al enfocar el boton */
+  box-shadow: none; /* Elimina cualquier sombra al enfocar el boton */
+}
+
+#menu_superior li {
+  margin-right: 3px;
+}
+.form_search_encabezado {
+  width: 350px;
+  padding-left: 10px;
+  border: 1px solid #ee1c25;
+  border-radius: 17px;
+}
+.form_search_encabezado input {
+  font-size: .9rem;
+  color: #444041;
+}
+
+#menu_categorias {
+  width: 800px;
+}
+#menu_categorias a:hover {
+  color: #ee1c25;
+}
+.custom-dropdown-toggle::after {
+  border-top-color: #ee1c25;
+}
+.custom-dropdown-toggle[aria-expanded="true"]::after {
+  border-bottom-color: #ee1c25;
+}
+.custom-dropdown-menu {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Slider
+--------------------------------------------------- */
+#carousel {
+  overflow: hidden;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.carousel-item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  width: 100% !important;
+}
+.carousel-item img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Catalogo
+--------------------------------------------------- */
+.novedades_info {
+  font-size: 1.1rem;
+}
+#contenedor_logo_whatsapp {
+  width: 10%;
+  margin-top: -50px;
+  left: 1%;
+  position: fixed;
+  z-index: 2707;
+}
+.catalogo_control_precio {
+  width: 70px;
+  height: 30px;
+  font-size: .7rem;
+  padding: 2px 5px;
+}
+
+/* Categorias Destacadas 
+--------------------------------------------------- */
+.categoria_contenedor {
+  width: 20%;
+  position: relative;
+}
+.categoria_nombre {
+  background-color: rgba(0, 0, 0, .6);
+  color: #fff;
+  padding: 3px 40px;
+  font-family: 'myriad_pro_bold';
+  font-size: 1.2rem;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.accordion_body_catalogo {
+  height: 200px;
+  overflow: auto;
+}
+.accordion_body_catalogo a:hover{
+  color: orange;
+}
+
+/* Carousel de productos 
+--------------------------------------------------- */
+.cards_carousel_inner {
+  padding-right: 0;
+  overflow-x: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+.cards_carousel_inner::-webkit-scrollbar {
+  display: none;
+}
+.card_contenedor {
+  display: inline-block;
+  overflow-x: hidden;
+  min-width: 20%;
+}
+.card_autor {
+  font-family: 'myriad_pro_regular';
+  font-size: .9rem;
+}
+.card_titulo {
+  font-family: 'myriad_pro_bold';
+  font-size: .8rem;
+}
+.card_precio {
+  font-family: 'myriad_pro_regular';
+  font-size: 1.4rem;
+}
+.cards_carousel_control_prev, 
+.cards_carousel_control_next {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  top:0;
+}
+.cards_carousel_control_prev {
+  left: -50px;
+}
+.cards_carousel_control_next {
+  right: -50px;
+}
+
+/* Suscripciones ------------------------------------- */
+#ilustracion_suscripciones {
+  margin-top: -120px;
+  position: absolute;
+  z-index: 2708;
+  left: 38%;
+}
+
+/* Carrito -------------------------------------------------- */
+.carrito_img {
+  width: 100px;
+}
+.carrito_fs {
+  font-size: 1.3rem;
+}
+
+/* --------------------------------------------------- */
+footer {
+  color: #fff;
+  background-color: #333333;
+  bottom: 0;
+  font-family: 'myriad_pro_regular';
+}
+.footer_columna {
+  width: 20%;
+}
+.footer_columna_lg {
+  width: 25%;
+}
+.footer_columna_sm {
+  width: 15%;
+}
+
+.btn_ir_arriba {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  z-index: 2709;
+  bottom: 20px;
+  right: 45%;
+  display: none;
+  text-indent: -9999px;
+  background: url('../imagenes/ir_arriba.png') no-repeat;
+  outline: none;
+}
+/* --------------------------------------------------- */
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Secciones Internas (lectura) ------------------------------------- */
+#header_quienes_somos {
+  background-image: url("../imagenes/header_quienes-somos.jpg");
+  min-height: 340px;
+}
+#header_preguntas_frecuentes {
+  background-image: url("../imagenes/header_preguntas_frecuentes.jpg");
+  min-height: 340px;
+}
+#header_terminos_condiciones {
+  background-image: url("../imagenes/header_terminos_condiciones.jpg");
+  min-height: 340px;
+}
+#header_nuestras_promociones {
+  background-image: url("../imagenes/header_nuestras_promociones.jpg");
+  min-height: 340px;
+}
+#header_contacto {
+  background-image: url("../imagenes/header_contacto.jpg");
+  min-height: 340px;
+}
+#header_arrepentimiento {
+  background-image: url("../imagenes/header_arrepentimiento.jpg");
+  min-height: 340px;
+}
+#header_sucursales {
+  background-image: url("../imagenes/header_sucursales.jpg");
+  min-height: 340px;
+}
+
+/* Detiene el efecto scrolling parallax en tablets y mobile */
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
+
+/* Dispositivos Extra Pequeños (teléfono vertical (portrait), less than 576px) */
+@media (max-width: 575.98px) {
+  
+  #menu_categorias {
+    width: 90%;
+  }
+  .form_search_encabezado {
+    width: 380px;
+  }
+  .novedades_info {
+    font-size: .9rem;
+  }
+  .categoria_contenedor {
+    width: 50%;
+  }
+  .card_contenedor {
+    min-width: 50%;
+  }
+  .cards_carousel_control_prev {
+    left: 0;
+  }
+  .cards_carousel_control_next {
+    right: 0;
+  }
+  .carrito_img {
+    width: 50px;
+  }
+  .carrito_fs {
+    font-size: .7rem;
+  }
+  .carrito_input_cantidad {
+    width: 40px;
+   }
+  #ilustracion_suscripciones {
+    margin-top: -150px;
+    position: absolute;
+    z-index: 2708;
+    left: 0;
+  }
+  .footer_columna {
+    width: 100%;
+  }
+  .btn_ir_arriba {
+    right: 45%;
+  }
+}
+
+/* Pequeños Dispositivos (teléfono apaisado (landscape), 576px y arriba) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+/* Dispositivos Medianos (tablets, 768px y arriba) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+}
+
+/* Dispositivos Grandes (desktops, 992px y arriba) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Dispositivos Extra Grandes (large desktops, 1200px y arriba) */
+@media (min-width: 1200px) {
+  
+}

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<meta name="description" content="">
+
+		<meta name="keywords" content="">
+
+		<meta name="author" content="SistemasGD">
+
+		<title>Second Step</title>
+
+        <link href="./css/bootstrap_v5.3.3.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+        <link href="./css/propio.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container-fluid m-0 p-0">
+            <div class="row">
+                <div class="col">
+                    <img src="./images/logo.png" alt="Logo" class="img-fluid" />
+                </div>
+            </div>
+            <div class="row  border-top border-3 border-success">
+				<div class="col-12 col-sm-6 mx-auto mt-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-4 fs-6">
+                                            Job Information
+                                        </div>
+                                        <div class="col-4 fs-6">
+                                            Requirements and Benefits
+                                        </div>
+                                        <div class="col-4 fs-6">
+                                            Additional information
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="progress" role="progressbar" aria-label="Progreso" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar fondo_verde" style="width: 66%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+            <form 
+                id="formSecondStep" 
+                name="formSecondStep" 
+                class="px-2 px-md-0" 
+                action="#" 
+                method="POST"
+            >
+                <div class="row pb-5 no-gutters">
+                    <div class="col-12 col-md-6 mx-auto pt-1">
+                        <div class="row">
+                            <div class="col-12 mt-5">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input 
+                                                type="text" 
+                                                class="form-control fondo_gris_muy_claro" 
+                                                id="f_requirements" 
+                                                name="f_requirements" 
+                                                value="" 
+                                                placeholder="Must-Have Requirements"
+                                            />
+                                            <label for="f_requirements">
+                                                <i class="bi bi-bookmark-check"></i>&nbsp;Must-Have Requirements *
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input 
+                                                type="text" 
+                                                class="form-control fondo_gris_muy_claro" 
+                                                id="f_responsabilities" 
+                                                name="f_responsabilities" 
+                                                value="" 
+                                                placeholder="Responsabilities"
+                                            />
+                                            <label for="f_responsabilities">
+                                                <i class="bi bi-bookmark-check"></i>&nbsp;Responsabilities *
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input 
+                                                type="text" 
+                                                class="form-control fondo_gris_muy_claro" 
+                                                id="f_perks" 
+                                                name="f_perks" 
+                                                value="" 
+                                                placeholder="Perks"
+                                            />
+                                            <label for="f_perks">
+                                                <i class="bi bi-bookmark-check"></i>&nbsp;Perks *
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <select class="form-select fondo_gris_muy_claro" id="f_benefits" name="f_benefits">
+                                                <option value="0" selected>---</option>
+                                                <option value="1">Health insurance</option>
+                                                <option value="2">Bonds</option>
+                                                <option value="3">Vacation days</option>
+                                                <option value="4">Nursery</option>
+                                            </select>
+                                            <label for="f_benefits">
+                                                <i class="bi bi-geo-alt-fill"></i>&nbsp;Benefits *
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <select class="form-select fondo_gris_muy_claro" id="f_job_category" name="f_job_category">
+                                                <option value="0" selected>---</option>
+                                                <option value="1">Technology</option>
+                                                <option value="2">Sales</option>
+                                                <option value="3">Administration</option>
+                                            </select>
+                                            <label for="f_job_category">
+                                                <i class="bi bi-bookmark-check"></i>&nbsp;Job Category
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-floating mb-3">
+                                                <input 
+                                                    type="text" 
+                                                    class="form-control fondo_gris_muy_claro" 
+                                                    id="f_desirable_skills" 
+                                                    name="f_desirable_skills" 
+                                                    value="" 
+                                                    placeholder="Desirable Skills"
+                                                />
+                                                <label for="f_desirable_skills">
+                                                    <i class="bi bi-bookmark-check"></i>&nbsp;Desirable Skills
+                                                </label>
+                                            </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="fs-6">
+                                            Data with * are mandatory
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row  border-top border-2 border-success">
+                            <div class="col-12 mt-3">
+                                <div class="row text-center">
+                                    <div class="col-12 col-md-3 me-auto">
+                                        <a 
+                                            href="./step_1.html"
+                                            class="rounded-pill border border-success ms-auto px-3 py-2 fs-6 bg-success text-white g-recaptcha"
+                                        >
+                                            <i class="bi bi-chevron-left"></i>&nbsp;Previous step
+                                        </a>
+                                        <!-- <button 
+                                            type="submit" 
+                                            class="rounded-pill border border-success ms-auto px-3 py-2 fs-6 bg-success text-white g-recaptcha"
+                                            data-sitekey="#"
+								            data-callback="onSubmitFirstStep"
+								            data-action="submit"
+                                        >
+                                            <i class="bi bi-chevron-left"></i>&nbsp;Previous step
+                                        </button> -->
+                                    </div>
+                                    <div class="col-12 col-md-3 ms-auto">
+                                        <a 
+                                            href="./step_3.html"
+                                            class="rounded-pill border border-success ms-auto px-3 py-2 fs-6 bg-success text-white g-recaptcha"
+                                        >
+                                            Next Step&nbsp;<i class="bi bi-chevron-right"></i>
+                                        </a>
+                                        <!-- <button 
+                                            type="submit" 
+                                            class="rounded-pill border border-success ms-auto px-3 py-2 fs-6 bg-success text-white g-recaptcha"
+                                            data-sitekey="#"
+								            data-callback="onSubmitThirdStep"
+								            data-action="submit"
+                                        >
+                                            Next Step&nbsp;<i class="bi bi-chevron-right"></i>
+                                        </button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+		</div>
+
+		<script src="./js/bootstrap_v5.3.3.js"></script>
+
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    </body>
+</html>
